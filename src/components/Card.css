@@ -1,0 +1,156 @@
+.card{
+    width: 358px;
+    height: 228px;
+
+    /* NEW GRADIENT 2 */
+
+    background: linear-gradient(270deg, #800080 0%, #FF864C 100%);
+    border-radius: 20px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.friend-name{
+    position: absolute;
+    /* width: 124px;
+    height: 24px; */
+    left: 20px;
+    top: 20px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+color: #FFFFFF;
+}
+.date{
+    position: absolute;
+    /* width: 83px;
+    height: 21px; */
+    left: 255px;
+    top: 23px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+color: #FFFFFF;
+}
+.courses-heading{
+    position: absolute;
+    /* width: 141px;
+    height: 21px; */
+    left: 20px;
+    top: 54px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+.amount-text{
+    position: absolute;
+    /* width: 130px;
+    height: 24px; */
+    left: 20px;
+    top: 182px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+color: #FFFFFF;
+}
+.card-amount{
+    position: absolute;
+    /* width: 55px;
+    height: 36px; */
+    left: 160px;
+    top: 176px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+.courses{
+    display: flex;
+    flex-wrap: wrap;
+    width: 320px;
+    height: auto;
+    position: absolute;
+    /* width: 56px;
+    height: 29px; */
+    left: 30px;
+    top: 85px;
+    gap: 10px;
+
+}
+.course{
+    box-sizing: border-box;
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 9px;
+    gap: 10px;
+    
+    /* position: absolute; */
+    /* width: 56px;
+    height: 29px;
+    left: 30px;
+    top: 85px; */
+    
+    border: 1.5px solid #EEAEAE;
+    border-radius: 20px;
+}
+.course > p{
+   
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}

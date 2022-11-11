@@ -1,0 +1,132 @@
+
+
+
+.referral-text{
+    position: absolute;
+    width: 150px;
+    height: 24px;
+    left: 187px;
+    top: 151px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    color: #800080;
+}
+.referral-code-box{
+    position: absolute;
+    width: 153px;
+    height: 50px;
+    left: 187px;
+    top: 180px;
+
+    border: 1.5px solid #DFDFDF;
+    border-radius: 10px;
+}
+.referral-code{
+    position: absolute;
+    width: 124px;
+    height: 24px;
+    left: 15px;
+    top: 13px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    letter-spacing: 0.75em;
+    color: #000000;
+}
+.dashboard{
+    position: absolute;
+    width: 145px;
+    height: 85px;
+    left: 1034px;
+    top: 151px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(128, 0, 128, 0.15);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.wallet-balance{
+    margin-left: 20px;
+    width: 105px;
+    height: 21px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #800080;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.amount{
+    margin-left: 20px;
+    width: 45px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.referral-cards{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    overflow: hidden;
+    position: absolute;
+    width: 1114px;
+    height: 228px;
+    left: 187px;
+    top: 346px;
+}
+.enrolled-friend-heading{
+    position: absolute;
+    width: 241px;
+    height: 30px;
+    left: 189px;
+    top: 296px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #800080;
+}
+.terms-condition{
+    position: absolute;
+    width: 159px;
+    height: 24px;
+    left: 187px;
+    top: 634px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 72px;
+    color: #800080;
+}

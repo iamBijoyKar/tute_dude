@@ -1,0 +1,21 @@
+.navigation{
+    position: absolute;
+    width: 1366px;
+    height: 76px;
+    left: 0px;
+    top: 73px;
+    background: #FFFFFF;
+}
+.navigation-text{
+    position: absolute;
+    width: 266px;
+    height: 21px;
+    left: 187px;
+    top: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}
