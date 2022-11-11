@@ -31,9 +31,9 @@ function Dashboard(){
 function ReferralCards(){
     return(
         <Carousel className='referral-cards'>
-            <Card name='Dhiraj Saxsena' date='14 Sep, 2022' number='6' amount='₹185' courses={['UI/UX','Photoshop','Python','MERN','Java']} />      
-            <Card name='Subhash Mishra' date='14 Sep, 2022' number='23' amount='₹485' courses={['UI/UX','Java']} />
-            <Card name='Dhiraj Saxsena' date='14 Sep, 2022' number='23' amount='₹485' courses={['UI/UX','Java']} />
+            <Card name='Dhiraj Saxsena' date='14 Sep, 2022' number='6' amount='₹185' courses={['UI/UX','Photoshop', 'Illustrator' ,'Python','MERN','Java']} />      
+            <Card name='Subhash Mishra' date='14 Sep, 2022' number='23' amount='₹485' courses={['UI/UX','Photoshop', 'Illustrator' ,'Python','MERN','Java','C++']} />
+            <Card name='Dhiraj Saxsena' date='14 Sep, 2022' number='23' amount='₹485' courses={['UI/UX','Photoshop', 'Illustrator' ,'Python','MERN','Java','C++']} />
         </Carousel>
     )
 }
@@ -49,6 +49,12 @@ function EnrolledFriend(){
     )
 }
 
+const Terms = () => (<>
+    <p className='terms-condition'>
+        Terms & Conditions
+    </p>
+</>)
+
 function MainBody(){
 
 
@@ -57,10 +63,9 @@ function MainBody(){
         <Referral/>
         <Dashboard/>
         <EnrolledFriend/>
-        <p className='terms-condition'>
-            Terms & Conditions
-        </p>
+        
         </>
     )
 }
 export default MainBody
+export {Terms}

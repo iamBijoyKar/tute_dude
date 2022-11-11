@@ -1,0 +1,235 @@
+.main-dashboard{
+    position: absolute;
+    width: 486px;
+    height: 188px;
+    left: 187px;
+    top: 179px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+.referral-earning-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    
+    position: absolute;
+    width: 116px;
+    height: 69px;
+    left: 20px;
+    top: 20px;
+}
+.referral-earning-heading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #800080;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.referral-earning-amount{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.total-referrals-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: absolute;
+    width: 100px;
+    height: 69px;
+    left: 198px;
+    top: 20px;
+}
+.total-referrals-heading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    
+    color: #800080;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.total-referrals-number{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.wallet-balance-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: absolute;
+    width: 105px;
+    height: 69px;
+    left: 361px;
+    top: 20px;
+}
+.wallet-balance-heading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #800080; 
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.wallet-balance-amount{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.withdraw-balance{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 16px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 180px;
+    height: 40px;
+    left: 153px;
+    top: 119px;
+    
+    background: #800080;
+    border-radius: 20px;
+}
+.withdraw-balance > p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.referral-box{
+    position: absolute;
+    width: 358px;
+    height: 60px;
+    left: 766px;
+    top: 224px;
+}
+.code-box{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 358px;
+    height: 60px;
+    left:0;
+    top: 45px;
+    border: 1.5px solid orange;
+    border-radius: 10px;
+}
+.referral-box > p{
+    position: absolute;
+    /* width: 228px;
+    height: 36px; */
+    /* left: 766px;
+    top: 179px; */
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+    
+    
+    color: #800080;
+}
+.code-box > p{
+    position: absolute;
+    width: 230px;
+    height: 30px;
+    left: 64px;
+    top: 15px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    letter-spacing: 1.5em;
+    
+    color: #800080;
+}
