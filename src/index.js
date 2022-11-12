@@ -1,10 +1,26 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import DesktopApp from './DesktopApp';
+import MobileApp from './MobileApp'
 import reportWebVitals from './reportWebVitals';
 import { Route } from 'react-router-dom';
 import { BrowserRouter } from 'react-router-dom';
+
+// document.addEventListener('resize',App());
+
+function App(){
+  const [view ,setView] = useState(window.innerWidth)
+  // window.addEventListener('resize',setView(
+  //   view = window.innerWidth
+  // ))
+  if(view > 428){
+    return <DesktopApp/>
+  }
+  else{
+    return <MobileApp />
+  }
+}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

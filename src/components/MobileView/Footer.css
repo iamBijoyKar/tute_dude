@@ -1,0 +1,38 @@
+
+.mobile-enrolled-friend{
+
+    position: absolute;
+    width: 168px;
+    height: 24px;
+    left: 37px;
+    top: 1156px;
+    bottom: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    
+    color: #800080;
+    
+}
+.mobile-terms{
+    position: absolute;
+    width: 159px;
+    height: 24px;
+    left: 37px;
+    top: 1200px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    
+    color: #800080;
+    
+}

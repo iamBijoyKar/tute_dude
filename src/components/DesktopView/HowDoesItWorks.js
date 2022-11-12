@@ -52,4 +52,4 @@ function HowDoesItWorks(){
     )
 }
 export default HowDoesItWorks
-export {EnrolledFriendLink}
+export {EnrolledFriendLink , MainContent }

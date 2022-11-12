@@ -20,7 +20,7 @@
 /* identical to box height */
 
 
-color: #800080;
+    color: #800080;
 }
 .content{
     width: 270.56px;
@@ -97,4 +97,16 @@ color: #800080;
     
     color: #800080;
     
+}
+@media only screen and (max-width:428px) {
+    .how-does-it-works-box{
+        position: absolute;
+        
+        left: 30px;
+        top: 607px;
+        display: grid;
+        gap: 30px;
+        grid-template-columns: 1fr;
+        /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+    }
 }
