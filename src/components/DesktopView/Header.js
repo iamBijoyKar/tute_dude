@@ -1,6 +1,6 @@
-import header_image from './../media/header_image.png'
-import profile_image from './../media/profile_image.png'
-import down_arrow from './../media/down_arrow.png'
+import header_image from './../../media/header_image.png'
+import profile_image from './../../media/profile_image.png'
+import down_arrow from './../../media/down_arrow.png'
 import './Header.css'
 
 

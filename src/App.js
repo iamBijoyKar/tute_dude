@@ -1,34 +1,51 @@
 
 import './App.css';
-import Header from './components/Header';
-import Navigation from './components/Navigation';
-import MainBody, { Terms } from './components/MainBody';
-import MainDashboard, { ReferralCode } from './components/Dashboard';
-import HowDoesItWorks, { EnrolledFriendLink } from './components/HowDoesItWorks';
+import DesktopHeader from './components/DesktopView/Header';
+import DesktopNavigation from './components/DesktopView/Navigation';
+import DesktopMainBody from './components/DesktopView/MainBody';
+import DesktopMainDashboard from './components/DesktopView/Dashboard';
+import DesktopHowDoesItWorks from './components/DesktopView/HowDoesItWorks';
+
+import MobileHeader from './components/MobileView/Header'
+
 import { Route, Routes } from 'react-router-dom';
 
 function App() {
-  const Page1 =<>
-      <Header/>
-      <Navigation content={`UI/UX > Refer & Earn > Friends Referred `}  />
-      <MainBody/>
+
+  const DesktopPage1 =<>
+      <DesktopHeader/>
+      <DesktopNavigation content={`UI/UX > Refer & Earn > Friends Referred `}  />
+      <DesktopMainBody/>
   </>
 
-  const Page2 =<>
-    <Header/>
-    <Navigation content={`UI/UX > Refer & Earn `} />
-    <MainDashboard/>
-    <HowDoesItWorks/>
+  const DesktopPage2 =<>
+    <DesktopHeader/>
+    <DesktopNavigation content={`UI/UX > Refer & Earn `} />
+    <DesktopMainDashboard/>
+    <DesktopHowDoesItWorks/>
   </>
+
+  const MobilePage1 =<>
+  <MobileHeader />
+  </>
+
+const Page1 = ()=>{
+  console.log(window.innerWidth)
+  if(window.innerWidth > 428){
+    return <DesktopPage1 />
+  }
+  else{
+    return <MobilePage1 />
+  }
+}
+
   return (
     <div className="App">
       <Routes>
-        <Route path='/' element={Page2} />
-        <Route path='/home' element={Page1} />
+        
+        <Route path='/' element={DesktopPage2} />
+        <Route path='/home' element={ DesktopPage1 } />
       </Routes>
-      {/* <Header/>
-      <Navigation/>
-      <MainBody/> */}
     </div>
   );
 }
