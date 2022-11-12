@@ -85,18 +85,64 @@
     order: 1;
     flex-grow: 0;
 }
+.scrollable{
+    position: absolute;
+    width: 992px;
+    height: 245px;
+    left: 187px;
+    top: 346px;
+    overflow-x: scroll;
+    overflow-y: visible;
+}
+.rectangle{
+    position: absolute;
+    width: 104px;
+    height: 228px;
+    left: 1075px;
+    top: 346px;
+    z-index: 99;
+    background: linear-gradient(270deg, #6D6D6D 0%, rgba(61, 49, 49, 0) 42.79%);
+    border-radius: 0px 20px 20px 0px;
+}
+/* .r1{
+    position: absolute;
+    width: 104px;
+    height: 228px;
+    left: 1075px;
+    top: 346px;
+    background: #E2E1E1;
+    border-radius: 0px 20px 20px 0px;
+}
+.r2{
+    position: absolute;
+    width: 104px;
+    height: 228px;
+    left: 1075px;
+    top: 346px;
+    background: #A7A7A7;
+    border-radius: 0px;
+} */
+.subtract{
+    position: absolute;
+    width: 20px;
+    height: 228px;
+    left: 1159px;
+    top: 346px;
+    
+    background: #FFFFFF;
+}
 .referral-cards{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
     gap: 20px;
-    overflow: hidden;
+    
     position: absolute;
     width: 1114px;
     height: 228px;
-    left: 187px;
-    top: 346px;
+    left: 0px;
+    top: 0px;
 }
 .enrolled-friend-heading{
     position: absolute;
@@ -120,13 +166,15 @@
     width: 159px;
     height: 24px;
     left: 187px;
-    bottom: 0;
-    
+    top: 634px;
+
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    margin-bottom: 72px;
+    /* identical to box height */
+
+
     color: #800080;
 }

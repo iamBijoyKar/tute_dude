@@ -30,11 +30,20 @@ function Dashboard(){
 
 function ReferralCards(){
     return(
-        <Carousel className='referral-cards'>
+        <>
+        <div className='rectangle'></div>
+        <div className='subtract'>
+            <div className='r1'></div>
+            <div className='r2'></div>
+        </div>
+        <div className='scrollable'>
+        <div className='referral-cards'>
             <Card name='Dhiraj Saxsena' date='14 Sep, 2022' number='6' amount='₹185' courses={['UI/UX','Photoshop', 'Illustrator' ,'Python','MERN','Java']} />      
             <Card name='Subhash Mishra' date='14 Sep, 2022' number='23' amount='₹485' courses={['UI/UX','Photoshop', 'Illustrator' ,'Python','MERN','Java','C++']} />
             <Card name='Dhiraj Saxsena' date='14 Sep, 2022' number='23' amount='₹485' courses={['UI/UX','Photoshop', 'Illustrator' ,'Python','MERN','Java','C++']} />
-        </Carousel>
+        </div>
+        </div>
+        </>
     )
 }
 
@@ -63,7 +72,7 @@ function MainBody(){
         <Referral/>
         <Dashboard/>
         <EnrolledFriend/>
-        
+        <Terms />
         </>
     )
 }

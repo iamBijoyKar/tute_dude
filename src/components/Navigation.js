@@ -1,11 +1,11 @@
 import './Navigation.css'
 
-function Navigation(){
+function Navigation(props){
 
 
     return (
         <div className='navigation'>
-            <p className='navigation-text'>UI/UX{' > '}Refer & Earn {' > '} Friends Referred </p>
+            <p className='navigation-text'>{props.content}</p>
         </div>
     )
 }

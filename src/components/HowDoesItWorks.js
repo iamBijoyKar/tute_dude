@@ -47,6 +47,7 @@ function HowDoesItWorks(){
         <>
             <MainContent/>
             <EnrolledFriendLink />
+            <p className='tc'>Terms & Conditions</p>
         </>
     )
 }

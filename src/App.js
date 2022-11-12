@@ -10,17 +10,15 @@ import { Route, Routes } from 'react-router-dom';
 function App() {
   const Page1 =<>
       <Header/>
-      <Navigation/>
+      <Navigation content={`UI/UX > Refer & Earn > Friends Referred `}  />
       <MainBody/>
   </>
 
   const Page2 =<>
     <Header/>
-    <Navigation/>
+    <Navigation content={`UI/UX > Refer & Earn `} />
     <MainDashboard/>
     <HowDoesItWorks/>
-   
-    
   </>
   return (
     <div className="App">
